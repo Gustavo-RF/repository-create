@@ -1,0 +1,12 @@
+<?php
+
+namespace DummyNamespace;
+
+use DummyModel;
+
+use Illuminate\Http\Request;
+
+class DummyClass
+{
+    // methods
+}

@@ -1,0 +1,26 @@
+{
+    "name": "gustavorf/repo-create",
+    "description": "A simply tool to create repository and service folders inside app folder.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gustavo R.",
+            "email": "gustavoramaldes@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+	"require": {},
+	"autoload": {
+        "psr-4": {
+            "GustavoRF\\RepoCreate\\": "src/"
+        }
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"GustavoRF\\RepoCreate\\RepoCreateServiceProvider"
+			]
+		}
+	}
+}

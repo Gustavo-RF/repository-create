@@ -1,0 +1,22 @@
+<?php
+
+namespace DummyNamespace;
+
+use DummyModel;
+
+use Illuminate\Http\Request;
+
+class DummyClass
+{
+    public static function create(Request $request) {
+
+	}
+
+	public static function update($id, Request $request) {
+
+	}
+
+	public static function delete($id) {
+
+	}
+}
