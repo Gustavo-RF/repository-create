@@ -21,7 +21,7 @@ Laravel 5.5+ supports auto discover for service providers. If your laravel versi
   
     GustavoRF\RepoCreate\RepoCreateServiceProvider::class,
   
-  ];
+  ],
 ```
 
 
