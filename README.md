@@ -7,14 +7,14 @@ Simple repository and service file creator.
 Using [composer](https://getcomposer.com):
 
 ```bash
-composer require gustavorf/repo-create
+composer require gustavorf/repo-create --dev
 ```
 
 ## Usage
 
 Open your terminal in your project root and type:
 
-```php
+```bash
 php artisan repository:create MyRepository
 ```
 
@@ -22,7 +22,7 @@ This command will create a new Repository Class inside app/Repositories. If app/
 
 You can also send a model name using --model option:
 
-```php
+```bash
 php artisan repository:create MyRepository --model=MyModel
 ```
 
@@ -31,11 +31,11 @@ This command set MyModel usage in MyRepository class. If MyModel doesn't exists,
 
 Similarly, you can create services:
 
-```php
+```bash
 php artisan service:create MyService
 ```
 
-```php
+```bash
 php artisan service:create MyService --model=MyModel
 ```
 
