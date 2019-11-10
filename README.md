@@ -7,7 +7,7 @@ Simple repository and service file creator.
 Using [composer](https://getcomposer.com):
 
 ```bash
-composer require gustavo-RF/repo-create
+composer require gustavorf/repo-create
 ```
 
 ## Usage
