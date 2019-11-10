@@ -1,6 +1,6 @@
 # Laravel Repository and Service creator
 
-Simple repository and service file creator.
+Simple repository and service file creator for laravel 5+.
 
 ## Installation
 
@@ -9,6 +9,21 @@ Using [composer](https://getcomposer.com):
 ```bash
 composer require gustavorf/repo-create --dev
 ```
+
+## Laravel version
+
+Laravel 5.5+ supports auto discover for service providers. If your laravel version is 5.4 or lower, you have to add this line inside providers array in `config/app.php`
+
+```php
+  $providers = [
+  
+    ...
+  
+    GustavoRF\RepoCreate\RepoCreateServiceProvider::class,
+  
+  ];
+```
+
 
 ## Usage
 
