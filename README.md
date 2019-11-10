@@ -2,6 +2,10 @@
 
 Simple repository and service file creator for laravel 5+.
 
+[![Issues](https://img.shields.io/github/issues/Gustavo-RF/repository-create)]
+[![Forks](https://img.shields.io/github/forks/Gustavo-RF/repository-create)
+[![Stars](https://img.shields.io/github/stars/Gustavo-RF/repository-create)]
+
 ## Installation
 
 Using [composer](https://getcomposer.com):
