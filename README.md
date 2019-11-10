@@ -15,7 +15,7 @@ composer require gustavorf/repo-create --dev
 Laravel 5.5+ supports auto discover for service providers. If your laravel version is 5.4 or lower, you have to add this line inside providers array in `config/app.php`
 
 ```php
-  $providers = [
+  'providers' => [
   
     ...
   
