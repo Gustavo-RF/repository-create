@@ -2,9 +2,8 @@
 
 namespace DummyNamespace;
 
-use DummyModel;
-
 use Illuminate\Http\Request;
+use DummyModel;
 
 class DummyClass
 {
