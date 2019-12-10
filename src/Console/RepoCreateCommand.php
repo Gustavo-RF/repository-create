@@ -46,6 +46,6 @@ class RepoCreateCommand extends CreateCommandClass
      */
 	protected function getStub()
     {
-        return __DIR__.'/stubs/service.stub';
+        return __DIR__.'/stubs/repo.stub';
 	}
 }
